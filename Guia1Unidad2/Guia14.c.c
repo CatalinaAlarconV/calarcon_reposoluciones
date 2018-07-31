@@ -1,12 +1,12 @@
-/*Dada una matriz cuadrada A, un programa que permita detectar si dicha matriz es sim´etrica3
+/*Dada una matriz cuadrada A, un programa que permita detectar si dicha matriz es simÂ´etrica3
 Se
-considera que una matriz es sim´etrica si A[i,j] = A[j,i] y esto se cumple para todo i distinto de j. La
+considera que una matriz es simÂ´etrica si A[i,j] = A[j,i] y esto se cumple para todo i distinto de j. La
 simetria es respecto a la diagonal principal.*/
 #include <stdio.h>
 
 int main (){
    int matriz [50][50];
-   int i, j, filas, columnas, suma=0, malo;
+   int i, j, filas, columnas;
 
    printf ("ingrese el numero de filas:");
    scanf ("%d", &filas);
